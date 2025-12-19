@@ -1050,7 +1050,15 @@ body {
             
              
             .g-hidden { display: none; }
-        </style>
+        </style><div class="about-section">
+                <h2 class="section-title">📸 फोटो गॅलरी</h2>
+                <div class="gallery-grid"><div class="gallery-item photo-item g-hidden">
+               <img src="https://basegp.bizc.in/assets/gp3168842.webp" loading="lazy" onclick="openLightbox(this.src)" alt="Gallery Photo">
+           </div><div class="gallery-item photo-item g-hidden">
+               <img src="https://basegp.bizc.in/assets/gp7027847.webp" loading="lazy" onclick="openLightbox(this.src)" alt="Gallery Photo">
+           </div></div>
+                <div id="photo-pagination" class="gallery-pagination"></div>
+            </div>
         <div id="myLightbox" class="lightbox-modal">
           <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
           <img class="lightbox-content" id="img01">
